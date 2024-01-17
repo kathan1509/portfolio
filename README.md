@@ -1,5 +1,7 @@
 # Kathan Patel Portfolio Website
 
+This website is under constrction.⚙️
+
 ## Introduction
 
 🚀 Hi there! I'm Kathan Patel, a passionate Full Stack Developer hailing from Kitchener, Ontario. With 3+ years of Java wizardry under my belt, I specialize in crafting cutting-edge applications using Spring Boot and Hibernate. 🌐 My expertise spans microservices, RESTful and SOAP APIs, and I'm your go-to person for DevOps magic. AWS Certified Cloud Practitioner on a mission! Let's weave innovation together and create top-notch software solutions. Let's connect for a tech-filled adventure! 🌟💻
@@ -15,11 +17,6 @@
 4. **Experience Section:** Learn about my professional experiences.
 
 5. **Contact Section:** Reach out to me if you have any inquiries.
-
-## Links
-
-- [Figma Design](https://www.figma.com/community/file/1308487677104759760)
-- [YouTube Tutorial](https://youtu.be/rkR2Jvh-GZE)
 
 ## Connect with Me
 
