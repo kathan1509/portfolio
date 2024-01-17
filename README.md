@@ -1,6 +1,4 @@
-# Kathan Portfolio Website
-
-![Portfolio Screenshot](./cdn/images/screenshot.jpg)
+# Kathan Patel Portfolio Website
 
 ## Introduction
 
@@ -31,4 +29,5 @@
 Feel free to explore, contribute, and customize this portfolio for your own use!
 
 Happy coding! 🚀
+
 # kathan1509.github.io
