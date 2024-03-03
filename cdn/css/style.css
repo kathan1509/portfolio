@@ -97,7 +97,7 @@ nav {
 }
 
 .experience-with h2 {
-  font-size: 20px;
+  font-size: 30px;
 }
 .experience-with-lang {
   display: flex;
@@ -202,7 +202,7 @@ footer p {
   width: 300px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #f5f5f5;
+  /*background-color: #f5f5f5;*/
   border-radius: 5px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
