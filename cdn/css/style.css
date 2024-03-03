@@ -14,6 +14,7 @@ a {
 header {
   background-color: #222;
 }
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -197,47 +198,72 @@ footer p {
   margin-right: 20px;
 }
 
-/* styles.css */
-
-.container {
-  width: 80%;
+.card {
+  width: 300px;
   margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
-.skills {
-  padding: 50px 0;
-}
-
-.skill-category {
-  margin-bottom: 30px;
-}
-
-h2,
-h3 {
-  color: #007bff;
-}
-
-.skills-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-.skill {
-  text-align: center;
+.card-section {
   padding: 10px;
-  background-color: #f0f0f0;
-  border-radius: 10px;
+  border-bottom: 1px solid #ccc; /* Adjust line color as needed */
 }
 
-.skill img {
-  width: 50px;
-  height: 50px;
-  margin-bottom: 10px;
+.card-section:last-child {
+  border-bottom: none; /* Remove border for the last section */
 }
 
-.skill span {
-  display: block;
-  font-size: 14px;
-  color: #333;
+/* Existing CSS */
+
+/* Add this at the end of your CSS file */
+
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 100%;
+    padding: 40px 20px;
+  }
+  nav {
+    flex-direction: column;
+    align-items: left;
+  }
+  .navbar {
+    flex-direction: row;
+    align-items: left;
+  }
+  .navbar div {
+    align-items: left;
+    margin: 20px;
+    padding: 10px 0;
+  }
+  .experience-with-lang {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .projects {
+    flex-direction: column;
+  }
+  .experience-title-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .experience-title-container .date {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about-text {
+    width: 100%;
+  }
+  .experience-with-lang {
+    flex-direction: column;
+    align-items: center;
+  }
+  .experience-with-lang div {
+    margin-bottom: 20px;
+  }
 }
